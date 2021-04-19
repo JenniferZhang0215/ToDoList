@@ -1,0 +1,891 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should render default snapshot: default 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    inputArray={Array []}
+    onCancel={[MockFunction]}
+    onDelete={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "edit": false,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+          Array [
+            Object {
+              "edit": true,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEdit={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "edit": false,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEditPriority={[MockFunction]}
+    onFinish={[MockFunction]}
+    onSave={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`<List /> when item.edit is false should render correctly: edit is false 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    inputArray={
+      Array [
+        Object {
+          "edit": false,
+          "key": "1",
+          "priority": 0,
+          "status": false,
+          "text": "fake text",
+        },
+      ]
+    }
+    onCancel={[MockFunction]}
+    onDelete={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "edit": false,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+          Array [
+            Object {
+              "edit": true,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEdit={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "edit": false,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEditPriority={[MockFunction]}
+    onFinish={[MockFunction]}
+    onSave={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          <input
+            min="0"
+            onChange={[Function]}
+            type="number"
+            value={0}
+          />
+          <span
+            className={null}
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            fake text
+          </span>
+          <button
+            className="btn-sm m-1"
+            onClick={[Function]}
+          >
+            Edit
+          </button>
+          <button
+            className="btn-danger btn-sm m-1"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </li>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              min="0"
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />,
+            <span
+              className={null}
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              fake text
+            </span>,
+            <button
+              className="btn-sm m-1"
+              onClick={[Function]}
+            >
+              Edit
+            </button>,
+            <button
+              className="btn-danger btn-sm m-1"
+              onClick={[Function]}
+            >
+              Delete
+            </button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "min": "0",
+              "onChange": [Function],
+              "type": "number",
+              "value": 0,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "fake text",
+              "className": null,
+              "onClick": [Function],
+              "style": Object {
+                "cursor": "pointer",
+              },
+            },
+            "ref": null,
+            "rendered": "fake text",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "edit-btn",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Edit",
+              "className": "btn-sm m-1",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Edit",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": "delete-btn",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Delete",
+              "className": "btn-danger btn-sm m-1",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Delete",
+            "type": "button",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <input
+              min="0"
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />
+            <span
+              className={null}
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              fake text
+            </span>
+            <button
+              className="btn-sm m-1"
+              onClick={[Function]}
+            >
+              Edit
+            </button>
+            <button
+              className="btn-danger btn-sm m-1"
+              onClick={[Function]}
+            >
+              Delete
+            </button>
+          </li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                min="0"
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />,
+              <span
+                className={null}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                fake text
+              </span>,
+              <button
+                className="btn-sm m-1"
+                onClick={[Function]}
+              >
+                Edit
+              </button>,
+              <button
+                className="btn-danger btn-sm m-1"
+                onClick={[Function]}
+              >
+                Delete
+              </button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "min": "0",
+                "onChange": [Function],
+                "type": "number",
+                "value": 0,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "fake text",
+                "className": null,
+                "onClick": [Function],
+                "style": Object {
+                  "cursor": "pointer",
+                },
+              },
+              "ref": null,
+              "rendered": "fake text",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "edit-btn",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Edit",
+                "className": "btn-sm m-1",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Edit",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": "delete-btn",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Delete",
+                "className": "btn-danger btn-sm m-1",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Delete",
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`<List /> when item.edit is true should render correctly: edit is true 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    inputArray={
+      Array [
+        Object {
+          "edit": true,
+          "key": "1",
+          "priority": 0,
+          "status": false,
+          "text": "fake text",
+        },
+      ]
+    }
+    onCancel={[MockFunction]}
+    onDelete={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "edit": false,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+          Array [
+            Object {
+              "edit": true,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEdit={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "edit": false,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEditPriority={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "target": Object {
+                "value": 1,
+              },
+            },
+            Object {
+              "edit": false,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onFinish={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "edit": false,
+              "key": "1",
+              "priority": 0,
+              "status": false,
+              "text": "fake text",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onSave={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          <input
+            min="0"
+            onChange={[Function]}
+            type="number"
+            value={0}
+          />
+          <Edit
+            defaultValue="fake text"
+            onCancel={[Function]}
+            onSave={[Function]}
+          />
+          <button
+            className="btn-danger btn-sm m-1"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </li>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              min="0"
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />,
+            <Edit
+              defaultValue="fake text"
+              onCancel={[Function]}
+              onSave={[Function]}
+            />,
+            <button
+              className="btn-danger btn-sm m-1"
+              onClick={[Function]}
+            >
+              Delete
+            </button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "min": "0",
+              "onChange": [Function],
+              "type": "number",
+              "value": 0,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultValue": "fake text",
+              "onCancel": [Function],
+              "onSave": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Delete",
+              "className": "btn-danger btn-sm m-1",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Delete",
+            "type": "button",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <input
+              min="0"
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />
+            <Edit
+              defaultValue="fake text"
+              onCancel={[Function]}
+              onSave={[Function]}
+            />
+            <button
+              className="btn-danger btn-sm m-1"
+              onClick={[Function]}
+            >
+              Delete
+            </button>
+          </li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                min="0"
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />,
+              <Edit
+                defaultValue="fake text"
+                onCancel={[Function]}
+                onSave={[Function]}
+              />,
+              <button
+                className="btn-danger btn-sm m-1"
+                onClick={[Function]}
+              >
+                Delete
+              </button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "min": "0",
+                "onChange": [Function],
+                "type": "number",
+                "value": 0,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultValue": "fake text",
+                "onCancel": [Function],
+                "onSave": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Delete",
+                "className": "btn-danger btn-sm m-1",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Delete",
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

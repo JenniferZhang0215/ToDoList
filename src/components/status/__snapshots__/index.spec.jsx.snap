@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Status /> should render default snapshot: default 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Status
+    onStatus={[MockFunction]}
+    selectedStatus="All"
+    statusArray={
+      Array [
+        "All",
+        "Processing",
+        "Done",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="navbar-nav"
+      >
+        <li
+          className="nav-item active"
+        >
+          <span
+            className="nav-link"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            All
+          </span>
+        </li>
+        <li
+          className="nav-item "
+        >
+          <span
+            className="nav-link"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            Processing
+          </span>
+        </li>
+        <li
+          className="nav-item "
+        >
+          <span
+            className="nav-link"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            Done
+          </span>
+        </li>
+      </ul>,
+      "className": "navbar navbar-expand-lg navbar-light",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="nav-item active"
+          >
+            <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              All
+            </span>
+          </li>,
+          <li
+            className="nav-item "
+          >
+            <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              Processing
+            </span>
+          </li>,
+          <li
+            className="nav-item "
+          >
+            <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              Done
+            </span>
+          </li>,
+        ],
+        "className": "navbar-nav",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "All",
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              All
+            </span>,
+            "className": "nav-item active",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "All",
+              "className": "nav-link",
+              "onClick": [Function],
+              "style": Object {
+                "cursor": "pointer",
+              },
+            },
+            "ref": null,
+            "rendered": "All",
+            "type": "span",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "Processing",
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              Processing
+            </span>,
+            "className": "nav-item ",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Processing",
+              "className": "nav-link",
+              "onClick": [Function],
+              "style": Object {
+                "cursor": "pointer",
+              },
+            },
+            "ref": null,
+            "rendered": "Processing",
+            "type": "span",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "Done",
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              Done
+            </span>,
+            "className": "nav-item ",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Done",
+              "className": "nav-link",
+              "onClick": [Function],
+              "style": Object {
+                "cursor": "pointer",
+              },
+            },
+            "ref": null,
+            "rendered": "Done",
+            "type": "span",
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="navbar-nav"
+        >
+          <li
+            className="nav-item active"
+          >
+            <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              All
+            </span>
+          </li>
+          <li
+            className="nav-item "
+          >
+            <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              Processing
+            </span>
+          </li>
+          <li
+            className="nav-item "
+          >
+            <span
+              className="nav-link"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              Done
+            </span>
+          </li>
+        </ul>,
+        "className": "navbar navbar-expand-lg navbar-light",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="nav-item active"
+            >
+              <span
+                className="nav-link"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                All
+              </span>
+            </li>,
+            <li
+              className="nav-item "
+            >
+              <span
+                className="nav-link"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                Processing
+              </span>
+            </li>,
+            <li
+              className="nav-item "
+            >
+              <span
+                className="nav-link"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                Done
+              </span>
+            </li>,
+          ],
+          "className": "navbar-nav",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "All",
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="nav-link"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                All
+              </span>,
+              "className": "nav-item active",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "All",
+                "className": "nav-link",
+                "onClick": [Function],
+                "style": Object {
+                  "cursor": "pointer",
+                },
+              },
+              "ref": null,
+              "rendered": "All",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "Processing",
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="nav-link"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                Processing
+              </span>,
+              "className": "nav-item ",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Processing",
+                "className": "nav-link",
+                "onClick": [Function],
+                "style": Object {
+                  "cursor": "pointer",
+                },
+              },
+              "ref": null,
+              "rendered": "Processing",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "Done",
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="nav-link"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                Done
+              </span>,
+              "className": "nav-item ",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Done",
+                "className": "nav-link",
+                "onClick": [Function],
+                "style": Object {
+                  "cursor": "pointer",
+                },
+              },
+              "ref": null,
+              "rendered": "Done",
+              "type": "span",
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

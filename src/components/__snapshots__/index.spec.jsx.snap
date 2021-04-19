@@ -1,0 +1,774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> when inputArray is empty should render correctly: default 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          No ToDos Here
+        </h3>,
+        <input
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Add New To Do Item"
+          value=""
+        />,
+        <button
+          className="btn-success btn-sm m-2"
+          disabled=""
+          onClick={[Function]}
+        >
+          Add
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "No ToDos Here",
+        },
+        "ref": null,
+        "rendered": "No ToDos Here",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "onChange": [Function],
+          "onKeyDown": [Function],
+          "placeholder": "Add New To Do Item",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add",
+          "className": "btn-success btn-sm m-2",
+          "disabled": "",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Add",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            No ToDos Here
+          </h3>,
+          <input
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add New To Do Item"
+            value=""
+          />,
+          <button
+            className="btn-success btn-sm m-2"
+            disabled=""
+            onClick={[Function]}
+          >
+            Add
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "No ToDos Here",
+          },
+          "ref": null,
+          "rendered": "No ToDos Here",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "onChange": [Function],
+            "onKeyDown": [Function],
+            "placeholder": "Add New To Do Item",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add",
+            "className": "btn-success btn-sm m-2",
+            "disabled": "",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Add",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`<App /> when inputArray is empty should render default snapshot: default 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          No ToDos Here
+        </h3>,
+        <input
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Add New To Do Item"
+          value=""
+        />,
+        <button
+          className="btn-success btn-sm m-2"
+          disabled=""
+          onClick={[Function]}
+        >
+          Add
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "No ToDos Here",
+        },
+        "ref": null,
+        "rendered": "No ToDos Here",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "onChange": [Function],
+          "onKeyDown": [Function],
+          "placeholder": "Add New To Do Item",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add",
+          "className": "btn-success btn-sm m-2",
+          "disabled": "",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Add",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            No ToDos Here
+          </h3>,
+          <input
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add New To Do Item"
+            value=""
+          />,
+          <button
+            className="btn-success btn-sm m-2"
+            disabled=""
+            onClick={[Function]}
+          >
+            Add
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "No ToDos Here",
+          },
+          "ref": null,
+          "rendered": "No ToDos Here",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "onChange": [Function],
+            "onKeyDown": [Function],
+            "placeholder": "Add New To Do Item",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add",
+            "className": "btn-success btn-sm m-2",
+            "disabled": "",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Add",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`<App /> when inputArray is not empty should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <input
+          onChange={[Function]}
+          placeholder="Search The To Do List"
+          value=""
+        />,
+        <List
+          inputArray={
+            Array [
+              Object {
+                "edit": false,
+                "key": 0,
+                "priority": 0,
+                "status": false,
+                "text": "fake text 1",
+              },
+              Object {
+                "edit": false,
+                "key": 1,
+                "priority": 0,
+                "status": false,
+                "text": "fake text 2",
+              },
+            ]
+          }
+          onCancel={[Function]}
+          onDelete={[Function]}
+          onEdit={[Function]}
+          onEditPriority={[Function]}
+          onFinish={[Function]}
+          onSave={[Function]}
+        />,
+        <Status
+          onStatus={[Function]}
+          selectedStatus="All"
+          statusArray={
+            Array [
+              "All",
+              "Processing",
+              "Done",
+            ]
+          }
+        />,
+        <div>
+          <input
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add New To Do Item"
+            value=""
+          />
+          <button
+            className="btn-success btn-sm m-2"
+            onClick={[Function]}
+          >
+            Add
+          </button>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "search-bar",
+        "nodeType": "host",
+        "props": Object {
+          "onChange": [Function],
+          "placeholder": "Search The To Do List",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "inputArray": Array [
+            Object {
+              "edit": false,
+              "key": 0,
+              "priority": 0,
+              "status": false,
+              "text": "fake text 1",
+            },
+            Object {
+              "edit": false,
+              "key": 1,
+              "priority": 0,
+              "status": false,
+              "text": "fake text 2",
+            },
+          ],
+          "onCancel": [Function],
+          "onDelete": [Function],
+          "onEdit": [Function],
+          "onEditPriority": [Function],
+          "onFinish": [Function],
+          "onSave": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "onStatus": [Function],
+          "selectedStatus": "All",
+          "statusArray": Array [
+            "All",
+            "Processing",
+            "Done",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Add New To Do Item"
+              value=""
+            />,
+            <button
+              className="btn-success btn-sm m-2"
+              onClick={[Function]}
+            >
+              Add
+            </button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "add-input",
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "onKeyDown": [Function],
+              "placeholder": "Add New To Do Item",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Add",
+              "className": "btn-success btn-sm m-2",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Add",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <input
+            onChange={[Function]}
+            placeholder="Search The To Do List"
+            value=""
+          />,
+          <List
+            inputArray={
+              Array [
+                Object {
+                  "edit": false,
+                  "key": 0,
+                  "priority": 0,
+                  "status": false,
+                  "text": "fake text 1",
+                },
+                Object {
+                  "edit": false,
+                  "key": 1,
+                  "priority": 0,
+                  "status": false,
+                  "text": "fake text 2",
+                },
+              ]
+            }
+            onCancel={[Function]}
+            onDelete={[Function]}
+            onEdit={[Function]}
+            onEditPriority={[Function]}
+            onFinish={[Function]}
+            onSave={[Function]}
+          />,
+          <Status
+            onStatus={[Function]}
+            selectedStatus="All"
+            statusArray={
+              Array [
+                "All",
+                "Processing",
+                "Done",
+              ]
+            }
+          />,
+          <div>
+            <input
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Add New To Do Item"
+              value=""
+            />
+            <button
+              className="btn-success btn-sm m-2"
+              onClick={[Function]}
+            >
+              Add
+            </button>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "search-bar",
+          "nodeType": "host",
+          "props": Object {
+            "onChange": [Function],
+            "placeholder": "Search The To Do List",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "inputArray": Array [
+              Object {
+                "edit": false,
+                "key": 0,
+                "priority": 0,
+                "status": false,
+                "text": "fake text 1",
+              },
+              Object {
+                "edit": false,
+                "key": 1,
+                "priority": 0,
+                "status": false,
+                "text": "fake text 2",
+              },
+            ],
+            "onCancel": [Function],
+            "onDelete": [Function],
+            "onEdit": [Function],
+            "onEditPriority": [Function],
+            "onFinish": [Function],
+            "onSave": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "onStatus": [Function],
+            "selectedStatus": "All",
+            "statusArray": Array [
+              "All",
+              "Processing",
+              "Done",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Add New To Do Item"
+                value=""
+              />,
+              <button
+                className="btn-success btn-sm m-2"
+                onClick={[Function]}
+              >
+                Add
+              </button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "add-input",
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "onKeyDown": [Function],
+                "placeholder": "Add New To Do Item",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add",
+                "className": "btn-success btn-sm m-2",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Add",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

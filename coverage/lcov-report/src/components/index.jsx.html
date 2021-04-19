@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/components/index.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">src/components</a> index.jsx
+    </h1>
+    <div class='clearfix'>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from "react";
+import List from "./list";
+import Status from "./status";
+&nbsp;
+import "./index.style.css";
+&nbsp;
+class App extends Component {
+  state = {
+    // inputArray used to store all to do items
+    inputArray: [],
+    // newData used to store the new single item in the inputArray
+    newData: { key: "", text: "", edit: false, status: false, priority: 0 },
+    id: 0,
+    statusArray: ["All", "Processing", "Done"],
+    selectedStatus: "All",
+    searchText: "",
+  };
+&nbsp;
+  get filteredInputArray() {
+    const { inputArray, selectedStatus, searchText } = this.state;
+&nbsp;
+    let filtered;
+    if (selectedStatus === "All") {
+      filtered = inputArray;
+    } else if (selectedStatus === "Done") {
+      filtered = inputArray.filter((item) =&gt; item.status);
+    } else <span class="missing-if-branch" title="else path not taken" >E</span>if (selectedStatus === "Processing") {
+      filtered = inputArray.filter((item) =&gt; !item.status);
+    }
+&nbsp;
+    if (searchText !== "") {
+      //string.indexOf(seartchContent)
+      filtered = filtered.filter(
+        (item) =&gt; item.text.indexOf(searchText) !== -1
+      );
+    }
+&nbsp;
+    //desc sorting order
+    filtered = filtered.sort((a, b) =&gt; b.priority - a.priority);
+&nbsp;
+    return filtered;
+  }
+&nbsp;
+  //get the input value into newData
+  handleChange = (e) =&gt; {
+    const { id } = this.state;
+    this.setState({
+      newData: { ...this.state.newData, key: id, text: e.target.value },
+    });
+  };
+&nbsp;
+  handleSearch = (e) =&gt; {
+    this.setState({ searchText: e.target.value });
+  };
+&nbsp;
+  handleEditPriority = (e, item) =&gt; {
+    let inputArray = Object.assign([], this.state.inputArray);
+    let element = inputArray.find((i) =&gt; i.key === item.key);
+    element.priority = Number(e.target.value);
+    this.setState({ inputArray });
+  };
+&nbsp;
+  //save the edit data to inputArray and replace the old one
+  handleSave = (item, editText) =&gt; {
+    let inputArray = Object.assign([], this.state.inputArray);
+    let element = inputArray.find((i) =&gt; i.key === item.key);
+    //take the opposite
+    element.edit = !element.edit;
+    element.text = editText;
+    this.setState({ inputArray });
+  };
+&nbsp;
+  handleCancel = (item) =&gt; {
+    let inputArray = Object.assign([], this.state.inputArray);
+    let element = inputArray.find((i) =&gt; i.key === item.key);
+    element.edit = !element.edit;
+    this.setState({ inputArray });
+  };
+&nbsp;
+  //save the newData to inputArray
+  handleClick = () =&gt; {
+    //to avoid empty item was pushed into the inputArray
+    <span class="missing-if-branch" title="else path not taken" >E</span>if (this.state.newData.text !== "") {
+      this.setState({
+        inputArray: [...this.state.inputArray, this.state.newData],
+        newData: {
+          key: this.state.id,
+          text: "",
+          edit: false,
+          status: false,
+          priority: 0,
+        },
+        id: this.state.id + 1,
+      });
+    }
+  };
+&nbsp;
+  handleKeyDown = (e) =&gt; {
+    <span class="missing-if-branch" title="else path not taken" >E</span>if (e.keyCode === 13) {
+      //e.preventDefault();
+      this.handleClick();
+    }
+  };
+&nbsp;
+  //to toggle edit status
+  handleEdit = (item) =&gt; {
+    let inputArray = [...this.state.inputArray];
+    const element = inputArray.find((i) =&gt; i.key === item.key);
+    element.edit = !element.edit;
+    this.setState({ inputArray });
+  };
+&nbsp;
+  handleDelete = (item) =&gt; {
+    let inputArray = [...this.state.inputArray];
+    const index = inputArray.indexOf(item);
+    //pay attention to the syntax, the inputArray has been automatically changed
+    inputArray.splice(index, 1);
+    this.setState({ inputArray });
+  };
+&nbsp;
+  handleFinish = (item) =&gt; {
+    let inputArray = [...this.state.inputArray];
+    let element = inputArray.find((i) =&gt; i.key === item.key);
+    //because the element is unique in the inputArray due to the id property
+    element.status = !element.status;
+    this.setState({ inputArray });
+  };
+&nbsp;
+  //define a new property in state: selectedStatus
+  handleStatus = (status) =&gt; {
+    //setState is async process.
+    this.setState({ selectedStatus: status });
+  };
+&nbsp;
+  render() {
+    const { inputArray, statusArray, selectedStatus } = this.state;
+&nbsp;
+    if (inputArray.length === 0) {
+      return (
+        &lt;div&gt;
+          &lt;h3&gt;No ToDos Here&lt;/h3&gt;
+          &lt;input
+            onChange={this.handleChange}
+            value={this.state.newData.text}
+            onKeyDown={this.handleKeyDown}
+            placeholder={"Add New To Do Item"}
+          /&gt;
+          &lt;button
+            onClick={this.handleClick}
+            className="btn-success btn-sm m-2"
+            disabled={""}
+          &gt;
+            Add
+          &lt;/button&gt;
+        &lt;/div&gt;
+      );
+    } else {
+      return (
+        &lt;div&gt;
+          {/*search bar */}
+          &lt;input
+            key="search-bar"
+            onChange={this.handleSearch}
+            value={this.state.searchText}
+            placeholder={"Search The To Do List"}
+          /&gt;
+&nbsp;
+          &lt;List
+            inputArray={this.filteredInputArray}
+            onDelete={this.handleDelete}
+            onEdit={this.handleEdit}
+            onSave={this.handleSave}
+            onCancel={this.handleCancel}
+            onFinish={this.handleFinish}
+            onEditPriority={this.handleEditPriority}
+          /&gt;
+          &lt;Status
+            statusArray={statusArray}
+            onStatus={this.handleStatus}
+            selectedStatus={selectedStatus}
+          /&gt;
+          &lt;div&gt;
+            &lt;input
+              key="add-input"
+              onChange={this.handleChange}
+              value={this.state.newData.text}
+              onKeyDown={this.handleKeyDown}
+              placeholder={"Add New To Do Item"}
+            /&gt;
+            &lt;button
+              onClick={this.handleClick}
+              className="btn-success btn-sm m-2"
+            &gt;
+              Add
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      );
+    }
+  }
+}
+export default App;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Nov 24 2020 01:01:11 GMT-0800 (Pacific Standard Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
